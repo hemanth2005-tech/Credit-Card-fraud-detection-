@@ -77,15 +77,6 @@ I explored the dataset, applied preprocessing, balanced the data with **SMOTE**,
 - Build an interactive **dashboard** for transaction monitoring  
 
 ---
-
-## 📌 How to Run  
-Clone the repo and install dependencies:  
-```bash
-git clone https://github.com/<your-username>/fraud-detection-ml.git
-cd fraud-detection-ml
-pip install -r requirements.txt
-
-jupyter notebook notebooks/fraud_detection.ipynb
 ### Visualizations
 
 ![ROC Curve](results/roc_curve.png)
@@ -95,4 +86,14 @@ jupyter notebook notebooks/fraud_detection.ipynb
 ![Confusion Matrix - Logistic Regression](results/confusion_matrix_logreg.png)
 
 ![Feature Importance (Random Forest)](results/feature_importance_rf.png)
+
+
+## 📌 How to Run  
+Clone the repo and install dependencies:  
+```bash
+git clone https://github.com/<your-username>/fraud-detection-ml.git
+cd fraud-detection-ml
+pip install -r requirements.txt
+
+jupyter notebook notebooks/fraud_detection.ipynb
 
