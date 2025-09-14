@@ -86,4 +86,13 @@ cd fraud-detection-ml
 pip install -r requirements.txt
 
 jupyter notebook notebooks/fraud_detection.ipynb
+### Visualizations
+
+![ROC Curve](results/roc_curve.png)
+
+![Confusion Matrix - Random Forest](results/confusion_matrix_rf.png)
+
+![Confusion Matrix - Logistic Regression](results/confusion_matrix_logreg.png)
+
+![Feature Importance (Random Forest)](results/feature_importance_rf.png)
 
